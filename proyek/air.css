@@ -1,0 +1,192 @@
+:root {
+  --color-background: #181c14;
+  --color-primary: #ecdfcc;
+  --color-secondary: #3c3d37;
+  --color-text: #ffffff;
+  --color-white: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+.back-link {
+  position: absolute;
+  top: 120px;
+  left: 65px;
+  color: aliceblue;
+}
+.main-header {
+  background-color: var(--color-secondary);
+  padding: 20px 50px;
+  position: fixed;
+  top: 20px;
+  left: 50px;
+  right: 50px;
+  z-index: 1000;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-primary);
+}
+.logo-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.search-bar {
+  flex-grow: 1;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px 50px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: -98%;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.nav-menu a {
+  color: #181c14;
+}
+
+.nav-link {
+  color: var(--color-white);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.login-nav {
+  background-color: var(--color-white);
+  color: var(--color-text);
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.user-icon-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.concert-detail {
+  padding: 100px;
+  top: 50px;
+  left: 10px;
+  right: 50px;
+}
+.poster img {
+  padding: 10%;
+  position: absolute;
+  border-radius: 25px;
+}
+.concert-detail a.back-button {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.concert-detail h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.concert-detail p {
+  margin-bottom: 10px;
+}
+
+.details {
+  margin-top: 20px;
+}
+
+.details h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.details ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.details ul li {
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.order-button {
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  color: #232323;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.poster {
+  width: 33%;
+  padding: 75px 50px;
+  position: sticky;
+  top: 20px;
+  left: 50px;
+  right: 50px;
+  z-index: 1000;
+}
+
+.poster img {
+  width: 100%;
+  border-radius: 10px;
+}
+main {
+  display: flex;
+  padding: 20px;
+}

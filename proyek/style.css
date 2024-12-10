@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+:root {
+  --color-background: #181c14;
+  --color-primary: #ecdfcc;
+  --color-secondary: #3c3d37;
+  --color-text: #000000;
+  --color-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.main-header {
+  background-color: var(--color-secondary);
+  padding: 20px 50px;
+  position: sticky;
+  top: 20px;
+  left: 50px;
+  right: 50px;
+  z-index: 1000;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.search-bar {
+  flex-grow: 1;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px 50px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: -98%;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: var(--color-white);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.login-nav {
+  background-color: var(--color-white);
+  color: var(--color-text);
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.user-icon-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.hero-section {
+  top: 50px;
+  background-color: #f5e6d3;
+  border-radius: 15px;
+  color: black;
+}
+.concert-card {
+  background-color: #f5e6d3;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.start-button {
+  background-color: #5f6f5f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.filter-button {
+  background-color: #f5e6d3;
+  color: black;
+  padding: 10px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.tanggal-input {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f5e6d3;
+}
+#map {
+  height: 400px;
+  width: 100%;
+  display: none;
+}
